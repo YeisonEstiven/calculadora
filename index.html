@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de tiempo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de tiempo</h1>
+        <label for="fechaNacimiento">Introduce la fecha:</label>
+        <input type="date" id="fechaNacimiento">
+        <button onclick="calcularEdad()">Calcular tiempo</button>
+
+        <div id="resultado" class="resultado"></div>
+        <h2>Historial de cálculos</h2>
+        <ul id="historial"></ul>
+
+        <footer>
+            <p>Presentado por: Yeison Estiven Fernandez</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
